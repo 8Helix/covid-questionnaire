@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+
+@font-face {
+  font-family: bpgArial;
+  src: url(./fonts/bpg_arial.ttf);
+}
+
+:root {
+  --black: #232323;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 62.5%;
+  font-family: 'bpgArial';
+}
